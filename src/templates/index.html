@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STCreative Studio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to STCreative Studio</h1>
+        <p>Your one-stop solution for professional video editing services.</p>
+    </header>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Video Editing</li>
+            <li>Color Correction</li>
+            <li>Audio Editing</li>
+            <li>Motion Graphics</li>
+            <li>Video Production</li>
+        </ul>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At STCreative Studio, we specialize in transforming your raw footage into stunning videos that tell your story. Our team of experienced editors is dedicated to delivering high-quality results tailored to your needs.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 STCreative Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
