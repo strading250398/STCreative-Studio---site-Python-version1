@@ -1,0 +1,50 @@
+# Fișiere și foldere Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Config & secret keys
+.env
+*.secret
+instance/
+
+# Logs
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Cache
+.cache/
+*.egg-info/
+.eggs/
+*.egg
+
+# Flask / SQLAlchemy
+migrations/
+*.db-journal
+
+# Media / fișiere mari
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# Sisteme de operare
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
